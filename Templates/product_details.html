@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block 'main' %}
+
+
+<!--Main Start-->
+
+<div class="row">
+    <div class="col-md-6 mt-4 mb-4">
+        <img src="{% static 'asset\images\download (1).jpeg' %}" width="100%">
+    </div>
+
+    <div class="col-md-6 mt-4">
+        <p><strong>Product Name</strong>&nbsp;&nbsp;&nbsp;Vivo</p>
+        <p><strong>Price</strong>&nbsp;&nbsp;&nbsp;15000</p>
+        <p><strong>Category</strong>&nbsp;&nbsp;&nbsp;Mobile</p>
+        <p><strong>Product Description</strong>&nbsp;&nbsp;&nbsp;Good Product</p>
+
+        <a href="#"><button class="btn btn-danger">Add To Cart</button></a>
+        <a href="#"><button class="btn btn-danger">View Cart</button></a>
+        <a href="index.html"><button class="btn btn-danger">Shop More</button></a>
+    </div>
+</div>
+
+
+
+<!--Main End-->
+
+
+{% endblock 'main' %}
